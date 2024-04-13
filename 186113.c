@@ -1,0 +1,1 @@
+static inline __init void of_unittest_overlay_high_level(void) {}

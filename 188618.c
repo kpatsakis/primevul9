@@ -1,0 +1,1 @@
+    void resetByteCounter() { byteCounter = 0; }

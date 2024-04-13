@@ -1,0 +1,1 @@
+  inline boost::shared_ptr<TTransport> getInputTransport() { return ptrans_; }

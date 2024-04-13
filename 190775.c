@@ -1,0 +1,4 @@
+IsFileTransferEnabled()
+{
+	return fileTransferEnabled;
+}

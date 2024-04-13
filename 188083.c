@@ -1,0 +1,1 @@
+UTFstring::operator const wchar_t*() const {return _Data;}

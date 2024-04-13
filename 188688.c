@@ -1,0 +1,1 @@
+    JArithmeticDecoderStats *getRefinementRegionStats() { return refinementRegionStats; }

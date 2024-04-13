@@ -1,0 +1,1 @@
+  bool empty() const override { return value_ == nullptr ? true : value_->empty(); }

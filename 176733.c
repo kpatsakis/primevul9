@@ -1,0 +1,1 @@
+extern "C" void wsrep_handle_fatal_signal(int) { wsrep_sst_cancel(false); }

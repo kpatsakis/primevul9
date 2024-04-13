@@ -1,0 +1,1 @@
+EbmlUnicodeString::operator const UTFstring &() const {return Value;}

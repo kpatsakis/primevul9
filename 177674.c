@@ -1,0 +1,1 @@
+    bool isLittleEndian() { return !isBigEndian(); }

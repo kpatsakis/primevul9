@@ -1,0 +1,4 @@
+    FIFOProcessor()
+    {
+        output = NULL;
+    }

@@ -1,0 +1,3 @@
+  ~TRecursionTracker() {
+    prot_.decrementRecursionDepth();
+  }

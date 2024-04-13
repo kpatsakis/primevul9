@@ -1,0 +1,1 @@
+  bool operator==(const HeaderMap& rhs) const override { return HeaderMapImpl::operator==(rhs); }

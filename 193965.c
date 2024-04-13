@@ -1,0 +1,1 @@
+static inline void blk_queue_free_zone_bitmaps(struct request_queue *q) {}

@@ -1,0 +1,3 @@
+Formattable::Formattable() {
+    init();
+}

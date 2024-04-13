@@ -1,0 +1,1 @@
+static inline void timers_update_migration(void) { }

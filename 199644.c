@@ -1,0 +1,1 @@
+	bool IsRemote() { return m_bIsRemote; }

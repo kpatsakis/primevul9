@@ -1,0 +1,1 @@
+  static uint32_t fromWire32(uint32_t x) {return THRIFT_letohl(x);}

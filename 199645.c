@@ -1,0 +1,1 @@
+	bool IsChat() { return m_bIsChat; }

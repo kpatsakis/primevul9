@@ -1,0 +1,1 @@
+  void clearInline() override { memset(inline_headers_, 0, inlineHeadersSize()); }

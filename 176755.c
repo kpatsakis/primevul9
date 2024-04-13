@@ -1,0 +1,1 @@
+  sst_logger_thread_arg(FILE *ferr) : err_pipe(ferr) {}

@@ -1,0 +1,1 @@
+	virtual unsigned int MaxPoststreamTailSize() const {return 0;}

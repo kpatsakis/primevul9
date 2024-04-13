@@ -1,0 +1,1 @@
+static inline void blk_throtl_bio_endio(struct bio *bio) { }

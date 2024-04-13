@@ -1,0 +1,1 @@
+  size_t size() const override { return header_map_->size(); }

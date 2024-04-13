@@ -1,0 +1,1 @@
+HIDDEN void *zlib_init() { return NULL; }

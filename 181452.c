@@ -1,0 +1,1 @@
+	unsigned int BitsBuffered() const {return m_bitsBuffered;}

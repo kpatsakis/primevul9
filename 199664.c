@@ -1,0 +1,1 @@
+	const CString& GetRemoteIP() const { return m_sRemoteIP; }

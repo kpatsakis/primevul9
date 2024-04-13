@@ -1,0 +1,3 @@
+heif::BoxHeader::BoxHeader()
+{
+}

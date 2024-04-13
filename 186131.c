@@ -1,0 +1,1 @@
+static inline void of_unittest_overlay_i2c_15(void) { }

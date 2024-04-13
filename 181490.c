@@ -1,0 +1,4 @@
+	bool GetResult()
+	{
+		return !fail;
+	}

@@ -1,0 +1,1 @@
+    const HeaderEntry* operator[](size_t i) const { return result_[i]; }

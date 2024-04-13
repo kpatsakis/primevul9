@@ -1,0 +1,4 @@
+KaxInternalBlock::~KaxInternalBlock()
+{
+  ReleaseFrames();
+}

@@ -1,0 +1,1 @@
+    const HeaderString& key() const override { return key_; }

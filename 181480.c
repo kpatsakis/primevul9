@@ -1,0 +1,1 @@
+		inline bool operator<(const CodeInfo &rhs) const {return code < rhs.code;}

@@ -1,0 +1,1 @@
+  template <Type type> static bool& mutableFinalized() { MUTABLE_CONSTRUCT_ON_FIRST_USE(bool); }

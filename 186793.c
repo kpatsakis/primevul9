@@ -1,0 +1,1 @@
+    inline const QHostAddress& peerIp() const { return m_peerIp; }

@@ -1,0 +1,1 @@
+    JBIG2SegmentType getType() override { return jbig2SegPatternDict; }

@@ -1,0 +1,1 @@
+  uint64_t byteSize() const override { return header_map_->byteSize(); }

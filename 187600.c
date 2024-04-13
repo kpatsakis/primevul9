@@ -1,0 +1,1 @@
+static void zstd_done(void *brotli __attribute__((unused))) {}

@@ -1,0 +1,1 @@
+    FormattableStreamer() {} // private - forbid instantiation

@@ -1,0 +1,1 @@
+  bool has(const LowerCaseString& key) const { return get(key) != nullptr; }

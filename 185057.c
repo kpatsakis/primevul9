@@ -1,0 +1,1 @@
+  const std::string& get() const { return string_; }

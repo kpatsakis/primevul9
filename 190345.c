@@ -1,0 +1,1 @@
+  static uint64_t fromWire64(uint64_t x) {return letohll(x);}

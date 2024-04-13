@@ -1,0 +1,1 @@
+    explicit GetResult(NonConstGetResult&& result) : result_(std::move(result)) {}

@@ -1,0 +1,1 @@
+    void operator=(GetResult&& rhs) noexcept { result_ = std::move(rhs.result_); }

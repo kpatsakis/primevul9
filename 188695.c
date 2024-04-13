@@ -1,0 +1,1 @@
+    void setSegNum(unsigned int segNumA) { segNum = segNumA; }

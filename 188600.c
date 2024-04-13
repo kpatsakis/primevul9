@@ -1,0 +1,1 @@
+    int getWidth() const { return w; }

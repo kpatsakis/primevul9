@@ -1,0 +1,4 @@
+GetFtpRoot()
+{
+	return ftproot;
+}

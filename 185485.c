@@ -1,0 +1,1 @@
+  HeadersWrapper(Protobuf::Arena& arena, const T* value) : arena_(arena), value_(value) {}

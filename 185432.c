@@ -1,0 +1,1 @@
+    const std::string& backingString() const { return result_backing_string_; }

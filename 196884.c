@@ -1,0 +1,21 @@
+v3d_reset_by_bridge(struct v3d_dev *v3d)
+{
+	int version = V3D_BRIDGE_READ(V3D_TOP_GR_BRIDGE_REVISION);
+
+	if (V3D_GET_FIELD(version, V3D_TOP_GR_BRIDGE_MAJOR) == 2) {
+		V3D_BRIDGE_WRITE(V3D_TOP_GR_BRIDGE_SW_INIT_0,
+				 V3D_TOP_GR_BRIDGE_SW_INIT_0_V3D_CLK_108_SW_INIT);
+		V3D_BRIDGE_WRITE(V3D_TOP_GR_BRIDGE_SW_INIT_0, 0);
+
+		/* GFXH-1383: The SW_INIT may cause a stray write to address 0
+		 * of the unit, so reset it to its power-on value here.
+		 */
+		V3D_WRITE(V3D_HUB_AXICFG, V3D_HUB_AXICFG_MAX_LEN_MASK);
+	} else {
+		WARN_ON_ONCE(V3D_GET_FIELD(version,
+					   V3D_TOP_GR_BRIDGE_MAJOR) != 7);
+		V3D_BRIDGE_WRITE(V3D_TOP_GR_BRIDGE_SW_INIT_1,
+				 V3D_TOP_GR_BRIDGE_SW_INIT_1_V3D_CLK_108_SW_INIT);
+		V3D_BRIDGE_WRITE(V3D_TOP_GR_BRIDGE_SW_INIT_1, 0);
+	}
+}

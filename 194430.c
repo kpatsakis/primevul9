@@ -1,0 +1,1 @@
+static inline void fpstate_init_soft(struct swregs_state *soft) {}

@@ -1,0 +1,1 @@
+static inline void __init of_unittest_overlay(void) { }

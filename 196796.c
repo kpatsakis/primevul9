@@ -1,0 +1,1 @@
+_zzip_inline ZZIP_DISK* zzip_disk (ZZIP_MEM_DISK* dir) { return dir->disk; }

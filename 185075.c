@@ -1,0 +1,1 @@
+  size_t remove(const std::string& key) { return remove(LowerCaseString(key)); }

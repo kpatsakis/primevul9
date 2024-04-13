@@ -1,0 +1,1 @@
+  const std::string& token() const override { return token_; }

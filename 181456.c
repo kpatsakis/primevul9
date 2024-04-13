@@ -1,0 +1,1 @@
+	class Err : public Exception {public: Err(const std::string &what) : Exception(INVALID_DATA_FORMAT, "HuffmanDecoder: " + what) {}};

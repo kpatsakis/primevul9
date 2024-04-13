@@ -1,0 +1,1 @@
+    int getDataSize() const { return h * line; }

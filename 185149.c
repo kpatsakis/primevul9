@@ -1,0 +1,1 @@
+  const HeaderEntryImpl* const* constInlineHeaders() const override { return inline_headers_; }

@@ -1,0 +1,1 @@
+  bool is_reference(t_field* tfield) { return tfield->get_reference(); }

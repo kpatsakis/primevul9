@@ -1,0 +1,1 @@
+static inline void blk_throtl_stat_add(struct request *rq, u64 time) { }

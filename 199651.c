@@ -1,0 +1,1 @@
+	void SetRemoteIP(const CString& s) { m_sRemoteIP = s; }

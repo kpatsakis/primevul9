@@ -1,0 +1,1 @@
+HIDDEN void *brotli_init() { return NULL; }

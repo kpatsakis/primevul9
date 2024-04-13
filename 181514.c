@@ -1,0 +1,1 @@
+	unsigned int BlockSize() const {return E::BLOCKSIZE;}

@@ -1,0 +1,1 @@
+uint64_t HeaderMapImpl::byteSize() const { return cached_byte_size_; }

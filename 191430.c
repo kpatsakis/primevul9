@@ -1,0 +1,41 @@
+static void inline ConvertJzazbzToXYZ(const double Jz,const double az,
+  const double bz,const double white_luminance,double *X,double *Y,double *Z)
+{
+  double
+    azz,
+    bzz,
+    gamma,
+    Iz,
+    L,
+    Lp,
+    M,
+    Mp,
+    S,
+    Sp,
+    Xp,
+    Yp,
+    Zp;
+
+  gamma=Jz+Jzazbz_d0;
+  Iz=gamma/(Jzazbz_d-Jzazbz_d*gamma+1.0);
+  azz=az-0.5;
+  bzz=bz-0.5;
+  Lp=Iz+0.138605043271539*azz+0.0580473161561189*bzz;
+  Mp=Iz-0.138605043271539*azz-0.0580473161561189*bzz;
+  Sp=Iz-0.0960192420263189*azz-0.811891896056039*bzz;
+  gamma=pow(Lp,1.0/Jzazbz_p);
+  L=white_luminance*pow((Jzazbz_c1-gamma)/(Jzazbz_c3*gamma-Jzazbz_c2),1.0/
+    Jzazbz_n);
+  gamma=pow(Mp,1.0/Jzazbz_p);
+  M=white_luminance*pow((Jzazbz_c1-gamma)/(Jzazbz_c3*gamma-Jzazbz_c2),1.0/
+    Jzazbz_n);
+  gamma=pow(Sp,1.0/Jzazbz_p);
+  S=white_luminance*pow((Jzazbz_c1-gamma)/(Jzazbz_c3*gamma-Jzazbz_c2),1.0/
+    Jzazbz_n);
+  Xp=1.92422643578761*L-1.00479231259537*M+0.037651404030618*S;
+  Yp=0.350316762094999*L+0.726481193931655*M-0.065384422948085*S;
+  Zp=(-0.0909828109828476)*L-0.312728290523074*M+1.52276656130526*S;
+  *X=(Xp+(Jzazbz_b-1.0)*Zp)/Jzazbz_b;
+  *Y=(Yp+(Jzazbz_g-1.0)**X)/Jzazbz_g;
+  *Z=Zp;
+}

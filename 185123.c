@@ -1,0 +1,1 @@
+  HeaderEntryImpl** inlineHeaders() override { return inline_headers_; }

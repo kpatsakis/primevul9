@@ -1,0 +1,1 @@
+    JBIG2Bitmap *getBitmap(unsigned int idx) { return bitmaps[idx]; }

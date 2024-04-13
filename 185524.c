@@ -1,0 +1,1 @@
+  int size() const override { return 0; }

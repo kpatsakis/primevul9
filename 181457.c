@@ -1,0 +1,1 @@
+	unsigned long PeekBuffer() const {return m_buffer;}

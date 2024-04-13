@@ -1,0 +1,29 @@
+static int wrap_nettle_mac_exists(gnutls_mac_algorithm_t algo)
+{
+	switch (algo) {
+	case GNUTLS_MAC_MD5:
+	case GNUTLS_MAC_SHA1:
+	case GNUTLS_MAC_SHA224:
+	case GNUTLS_MAC_SHA256:
+	case GNUTLS_MAC_SHA384:
+	case GNUTLS_MAC_SHA512:
+	case GNUTLS_MAC_UMAC_96:
+	case GNUTLS_MAC_UMAC_128:
+	case GNUTLS_MAC_AES_CMAC_128:
+	case GNUTLS_MAC_AES_CMAC_256:
+	case GNUTLS_MAC_AES_GMAC_128:
+	case GNUTLS_MAC_AES_GMAC_192:
+	case GNUTLS_MAC_AES_GMAC_256:
+#if ENABLE_GOST
+	case GNUTLS_MAC_GOSTR_94:
+	case GNUTLS_MAC_STREEBOG_256:
+	case GNUTLS_MAC_STREEBOG_512:
+	case GNUTLS_MAC_GOST28147_TC26Z_IMIT:
+	case GNUTLS_MAC_MAGMA_OMAC:
+	case GNUTLS_MAC_KUZNYECHIK_OMAC:
+#endif
+		return 1;
+	default:
+		return 0;
+	}
+}

@@ -1,0 +1,1 @@
+  ConnectionWrapper(const StreamInfo::StreamInfo& info) : info_(info) {}

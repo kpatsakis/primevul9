@@ -1,0 +1,1 @@
+  PropertiesPrivate() : length(0), bitrate(0), sampleRate(0), channels(0), bitsPerSample(0) {}

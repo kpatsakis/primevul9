@@ -1,0 +1,1 @@
+  void generate_struct(t_struct* tstruct) { generate_cpp_struct(tstruct, false); }

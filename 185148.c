@@ -1,0 +1,1 @@
+  PeerWrapper(const StreamInfo::StreamInfo& info, bool local) : info_(info), local_(local) {}

@@ -1,0 +1,9 @@
+check_for_number_arg(typval_T *args, int idx)
+{
+    if (args[idx].v_type != VAR_NUMBER)
+    {
+	semsg(_(e_number_required_for_argument_nr), idx + 1);
+	return FAIL;
+    }
+    return OK;
+}

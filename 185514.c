@@ -1,0 +1,1 @@
+    Handle(RegistrationMap::const_iterator it) : it_(it) {}

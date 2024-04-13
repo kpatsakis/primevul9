@@ -1,0 +1,3 @@
+Parser::~Parser() {
+  delete lexer;
+}

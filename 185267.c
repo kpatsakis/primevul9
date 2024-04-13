@@ -1,0 +1,1 @@
+  MetadataProducer(const envoy::config::core::v3::Metadata& metadata) : metadata_(metadata) {}

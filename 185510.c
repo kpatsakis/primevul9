@@ -1,0 +1,1 @@
+  bool isReference() const { return type() == Type::Reference; }

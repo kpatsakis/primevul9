@@ -1,0 +1,4 @@
+TDStretch::~TDStretch()
+{
+    delete[] pMidBufferUnaligned;
+}

@@ -1,0 +1,3 @@
+MonClient::~MonClient()
+{
+}

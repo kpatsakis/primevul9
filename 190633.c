@@ -1,0 +1,1 @@
+static inline int f2fs_build_stats(struct f2fs_sb_info *sbi) { return 0; }

@@ -1,0 +1,1 @@
+static inline void init_iommu_pm_ops(void) {}

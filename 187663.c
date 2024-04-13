@@ -1,0 +1,1 @@
+static void brotli_done(void *brotli __attribute__((unused))) {}

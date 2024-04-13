@@ -1,0 +1,1 @@
+  bool ready_ ABSL_GUARDED_BY(mutex_){false};

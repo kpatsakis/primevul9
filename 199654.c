@@ -1,0 +1,1 @@
+	const CString& GetRemoteNick() const { return m_sRemoteNick; }

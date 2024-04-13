@@ -1,0 +1,1 @@
+	const CString& GetFileName() const { return m_sFileName; }

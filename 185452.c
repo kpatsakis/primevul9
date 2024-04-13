@@ -1,0 +1,1 @@
+  bool has(const std::string& key) const { return get(LowerCaseString(key)) != nullptr; }

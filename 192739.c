@@ -1,0 +1,4 @@
+PHP_FUNCTION(pi)
+{
+	RETURN_DOUBLE(M_PI);
+}

@@ -1,0 +1,1 @@
+    virtual Format* clone() const {return NULL;}

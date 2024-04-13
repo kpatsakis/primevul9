@@ -1,0 +1,1 @@
+		int do_encoding() const throw() { return 0; }

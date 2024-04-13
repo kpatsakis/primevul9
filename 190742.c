@@ -1,0 +1,1 @@
+static inline void f2fs_destroy_stats(struct f2fs_sb_info *sbi) { }

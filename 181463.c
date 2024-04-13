@@ -1,0 +1,1 @@
+	unsigned int KeyLength() const {return m_keylen;}

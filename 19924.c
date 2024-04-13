@@ -1,0 +1,1 @@
+    ~GopherStateData() {if(buf) swanSong();}

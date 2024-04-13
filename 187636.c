@@ -1,0 +1,1 @@
+static void zlib_done(void *zstrm __attribute__((unused))) { }

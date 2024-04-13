@@ -1,0 +1,1 @@
+  typename CustomInlineHeaderRegistry::Handle<type> handle() { return handle_; }

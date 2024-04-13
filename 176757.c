@@ -1,0 +1,1 @@
+void wsrep_abort_cb(void) { wsrep_sst_cancel(false); }

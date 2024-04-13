@@ -1,0 +1,1 @@
+  FilterStateWrapper(const StreamInfo::FilterState& filter_state) : filter_state_(filter_state) {}

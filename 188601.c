@@ -1,0 +1,1 @@
+JBIG2HuffmanDecoder::~JBIG2HuffmanDecoder() { }

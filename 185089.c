@@ -1,0 +1,1 @@
+  bool valid() const { return validHeaderString(string_); }

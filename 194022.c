@@ -1,0 +1,1 @@
+static inline void blk_throtl_exit(struct request_queue *q) { }

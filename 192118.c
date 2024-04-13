@@ -1,0 +1,1 @@
+static int __init mcheck_debugfs_init(void) { return -EINVAL; }

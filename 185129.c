@@ -1,0 +1,1 @@
+  void iterate(HeaderMap::ConstIterateCb cb) const override { header_map_->iterate(cb); }

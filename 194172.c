@@ -1,0 +1,1 @@
+rsRetVal msgQueryInterface(void) { return RS_RET_NOT_IMPLEMENTED; }

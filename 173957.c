@@ -1,0 +1,7 @@
+static unsigned int stabrand(void)
+{
+    SPICE_VERIFY( !(TABRAND_SEEDMASK & TABRAND_TABSIZE));
+    SPICE_VERIFY( TABRAND_SEEDMASK + 1 == TABRAND_TABSIZE );
+
+    return TABRAND_SEEDMASK;
+}

@@ -1,0 +1,4 @@
+soup_ntlm_request (void)
+{
+	return g_strdup ("NTLM TlRMTVNTUAABAAAABYIIAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAwAAAA");
+}

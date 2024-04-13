@@ -1,0 +1,1 @@
+	void SetPeer(CDCCBounce* p) { m_pPeer = p; }

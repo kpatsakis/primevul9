@@ -1,0 +1,1 @@
+static inline void del_timer_wait_running(struct timer_list *timer) { }

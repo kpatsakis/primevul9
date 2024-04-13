@@ -1,0 +1,1 @@
+    bool isOk() const { return ok; }

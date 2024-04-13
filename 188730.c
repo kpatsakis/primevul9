@@ -1,0 +1,1 @@
+static void i40e_irq_affinity_release(struct kref *ref) {}

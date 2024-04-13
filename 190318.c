@@ -1,0 +1,1 @@
+  void setRecurisionLimit(uint32_t depth) {recursion_limit_ = depth;}

@@ -1,0 +1,1 @@
+  bool operator<(const LowerCaseString& rhs) const { return string_.compare(rhs.string_) < 0; }

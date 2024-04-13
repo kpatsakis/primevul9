@@ -1,0 +1,1 @@
+    int getHeight() const { return h; }

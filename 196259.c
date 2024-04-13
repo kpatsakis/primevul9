@@ -1,0 +1,4 @@
+Formattable::~Formattable()
+{
+    dispose();
+}

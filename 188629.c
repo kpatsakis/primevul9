@@ -1,0 +1,1 @@
+    void setStream(Stream *strA) { str = strA; }

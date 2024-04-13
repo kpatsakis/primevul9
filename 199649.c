@@ -1,0 +1,1 @@
+	unsigned short GetUserPort() const { return m_uRemotePort; }

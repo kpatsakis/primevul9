@@ -1,0 +1,1 @@
+  bool empty() const override { return HeaderMapImpl::empty(); }

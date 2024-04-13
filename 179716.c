@@ -1,0 +1,6 @@
+  Supports_Condition_Obj Parser::parse_supports_negation()
+  {
+    if (!lex < kwd_not >()) return 0;
+    Supports_Condition_Obj cond = parse_supports_condition_in_parens();
+    return SASS_MEMORY_NEW(Supports_Negation, pstate, cond);
+  }

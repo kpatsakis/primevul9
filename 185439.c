@@ -1,0 +1,1 @@
+  int size() const override { return value_ == nullptr ? 0 : value_->size(); }

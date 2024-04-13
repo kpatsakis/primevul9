@@ -1,0 +1,1 @@
+    bool operator==(const Handle& rhs) const { return it_ == rhs.it_; }

@@ -1,0 +1,1 @@
+static inline bool is_timers_nohz_active(void) { return false; }

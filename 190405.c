@@ -1,0 +1,1 @@
+  static uint32_t toWire32(uint32_t x)   {return htonl(x);}

@@ -1,0 +1,1 @@
+const std::string get_allowed_pwd_chars() { return g_allowed_pwd_chars; }

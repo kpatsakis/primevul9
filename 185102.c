@@ -1,0 +1,1 @@
+    size_t size() const { return result_.size(); }

@@ -1,0 +1,1 @@
+    std::list<HeaderEntryImpl>::const_iterator begin() const { return headers_.begin(); }

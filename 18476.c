@@ -1,0 +1,1 @@
+static inline void timer_sync_wait_running(struct timer_base *base) { }

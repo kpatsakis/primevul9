@@ -1,0 +1,1 @@
+static inline void blk_throtl_register_queue(struct request_queue *q) { }

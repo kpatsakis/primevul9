@@ -1,0 +1,1 @@
+TProtocolFactory::~TProtocolFactory() {}

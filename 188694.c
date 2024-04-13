@@ -1,0 +1,1 @@
+    int getLineSize() const { return line; }

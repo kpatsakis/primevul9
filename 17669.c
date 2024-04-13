@@ -1,0 +1,1 @@
+  virtual void do_oop(oop* p)       { VerifyFieldClosure::do_oop_work(p); }

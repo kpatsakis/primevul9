@@ -1,0 +1,1 @@
+HIDDEN void *zstd_init() { return NULL; }

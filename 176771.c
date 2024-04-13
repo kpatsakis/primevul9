@@ -1,0 +1,1 @@
+bool wsrep_sst_donor_check(sys_var *, THD *, set_var *) { return 0; }

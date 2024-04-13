@@ -1,0 +1,1 @@
+  uint32_t getRecursionLimit() const {return recursion_limit_;}

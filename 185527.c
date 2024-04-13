@@ -1,0 +1,1 @@
+    std::list<HeaderEntryImpl>::const_reverse_iterator rend() const { return headers_.rend(); }

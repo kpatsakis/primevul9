@@ -1,0 +1,1 @@
+    explicit JBIG2Segment(unsigned int segNumA) { segNum = segNumA; }

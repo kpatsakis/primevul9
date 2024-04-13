@@ -1,0 +1,2 @@
+LoadGlobal::LoadGlobal():
+	cookieJar("") {}

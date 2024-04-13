@@ -1,0 +1,4 @@
+startTimer(void)
+{
+    begin = clock();
+}

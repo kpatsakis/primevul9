@@ -1,0 +1,1 @@
+      static half nan() { const half val_nan = (half)-std::sqrt(-1.0); return val_nan; }

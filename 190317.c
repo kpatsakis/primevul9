@@ -1,0 +1,1 @@
+  std::ostream& indent(std::ostream& os) { return generator_->indent(os); }

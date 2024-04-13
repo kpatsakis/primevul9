@@ -1,0 +1,1 @@
+#define stat_inc_node_blk_count(sbi, blks, gc_type)	do { } while (0)

@@ -1,0 +1,1 @@
+  size_t remove(const LowerCaseString& key) override { return HeaderMapImpl::remove(key); }

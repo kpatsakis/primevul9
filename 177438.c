@@ -1,0 +1,1 @@
+static int hwpoison_filter_task(struct page *p) { return 0; }

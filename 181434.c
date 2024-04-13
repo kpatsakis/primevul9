@@ -1,0 +1,1 @@
+	virtual unsigned int GetLog2WindowSize() const {return 15;}

@@ -1,0 +1,1 @@
+static inline int blk_throtl_init(struct request_queue *q) { return 0; }

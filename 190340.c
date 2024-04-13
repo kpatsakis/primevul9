@@ -1,0 +1,1 @@
+  void generate_xception(t_struct* txception) { generate_cpp_struct(txception, true); }

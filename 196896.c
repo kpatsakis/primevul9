@@ -1,0 +1,6 @@
+startTimer(void)
+{
+    /*
+     * Do nothing
+     */
+}

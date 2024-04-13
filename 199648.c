@@ -1,0 +1,1 @@
+	void SetRemote(bool b) { m_bIsRemote = b; }

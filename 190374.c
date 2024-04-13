@@ -1,0 +1,1 @@
+  static uint16_t toWire16(uint16_t x)   {return htons(x);}
